@@ -1,0 +1,82 @@
+body {
+    padding-top: 80px;
+}
+section {
+    height: 85vh;
+    background-color: black;
+    margin: auto;
+    max-width: 310px;
+    border-radius: 15px 15px 15px 15px;
+}
+input{
+    color: red;
+}
+.adj {
+    margin-left: 7px;
+}
+#fdiv {
+    height: 300px;
+    width: 290px;
+    color: white;
+}
+#sdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-top: 190px;
+}
+button {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+}
+#btnid {
+    padding-top: -220px;
+}
+#btndiv {
+    padding-top: 10px;
+}
+#sbtn{
+    background-color: rgb(179, 133, 8);
+    color: white;
+}
+#fbtn {
+    background-color: aliceblue;
+    
+}
+#obtn {
+    background-color: rgb(61, 58, 58);
+    color: white;
+}
+@media all and (max-width : 320px) {
+    section{
+        height: 95vh;
+        width: 95%;
+        margin-top: -50px;
+    }
+    #sdiv{
+        padding-top: 200px;
+    }
+    .adj {
+        padding-left: 10px;
+    }
+    button {
+        height: 100px;
+        width: 65px;
+        border-radius: 50%;
+        border: none;
+    }
+}
+@media all and (min-width : 351px) and (max-width : 414px) {
+    section{
+        min-height: 80vh;
+        max-width: 330px;
+    }
+    #sdiv{
+        padding-top: 200px;
+    }
+    .adj {
+        padding-left: 10px;
+    }
+}
